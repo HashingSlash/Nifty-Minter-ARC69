@@ -43,7 +43,7 @@ def nifty_loop_mint(private_key, my_address, loop_name, loop_ticker, quantity, l
 testnet=True
 
 if testnet==True:
-        algod_address = 'https://node.testnet.algoexplorerapi.io'
+    algod_address = 'https://node.testnet.algoexplorerapi.io'
 elif testnet==False:
     algod_address = 'https://node.algoexplorerapi.io'
 algod_token = ''
